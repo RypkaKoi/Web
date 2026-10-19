@@ -7,11 +7,13 @@
     
 }
 header{
+    width: 1920px;
     height: 80px;
      border-bottom: 1px solid #717A86; 
 }
 
 body{
+    width: 1920px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -28,6 +30,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     margin-top: 29px;
+    margin-left: 315px;
 
 }
 
@@ -354,7 +357,7 @@ width: 139px;
   background-color: #7C879D ;
 }
 .block3{
-  margin-left: 315px;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap
@@ -425,7 +428,7 @@ margin: 0 0;
   max-width: 410px;
   max-height: 690px;
   position: absolute;
-  left: 1350px;
+  left: 1203px;
   
 }
 
@@ -457,4 +460,8 @@ margin-bottom:  0px;
     white-space: nowrap;
     margin: 0;
     
+}
+
+.object0{
+  margin-left: 315px;
 }
