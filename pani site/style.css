@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/OpenSans-Regular.woff2) format('woff2');
+    
+    font-weight:  600;
+    font-display: swap;
+    
+}
+header{
+    height: 80px;
+     border-bottom: 1px solid #717A86; 
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+footer{
+  width: 1920px;
+    background-color: #7C879D; 
+}
+
+#top{
+   
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 29px;
+
+}
+
+#top >#Base{
+    
+    font-size: 32px;
+}
+ #top >  p {
+    width: 1920px;
+    color: rgb(113 122 134);
+    max-width: 157px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+.facebok::before {
+  content:"";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-image: url(images/fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+/* При наведении подменяем файл */
+.facebok:hover::before {
+  background-image:  url(images/face_bok.png);
+  
+}
+
+.ins::before {
+  content:"";
+  display: inline-block;
+  border-radius: 12px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-image: url(images/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+/* При наведении подменяем файл */
+.ins:hover::before {
+  background-image:  url(images/inst.png);
+  
+}
+
+.vk::before {
+  content:"";
+  
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  
+  background-size: contain;
+  background-image: url(images/vk.svg);
+  background-repeat: no-repeat;
+  background-position: center;  
+  
+}
+
+/* При наведении подменяем файл */
+.vk:hover::before {
+  background-image:  url(images/VK.com-logo.svg);
+  
+}
+#logo{
+width: 139px;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* .header_cl {
+    display: flex;
+    flex-direction: row;       
+    justify-content:space-around; 
+    align-items: center;      
+    max-width: 1920px;         
+    margin: 0 auto;             
+    padding: 0 40px;            
+} */
+
+.prevy{
+     margin-top: 60px;
+     margin-left: 30px;
+  color: rgb(113 122 134);
+    max-width: 431px;
+    max-height: 100px;
+    font-size: 48px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.sub_prevy{
+  color: rgb(113 122 134);
+    margin-top: 20px;
+    margin-left: 30px;
+    max-width: 380px;
+    max-height: 56px;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+#prevy{
+  margin-left:315px;
+  margin-right: 0px;
+  width: 960px;
+  height: 450px;
+  background-image:url(images/Rectangle\ 94.jpg)
+}
+#prevy_button{
+  margin-left: 30px;
+  margin-top: 10px;
+  color:white;
+  font-family: 'Open Sans';
+  background-color: #717A86;
+  width: 210px;
+  height: 50px;
+  border: none;
+}
+.block1{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 91px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto
+
+}
+
+.block1_2 > .object1 > p{
+  
+  margin-top: 16px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 310px;
+  max-height: 28px;
+}
+ .block1_2 >.object2 > p{
+  
+  margin-top: 16;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 310px;
+  max-height: 28px;
+}
+ .block1_2 > .object1{
+
+  margin-bottom: 22px;
+  height: 210px;
+  width: 300px;
+  
+  background-repeat: no-repeat;
+
+}
+
+
+.block1_2{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gross{
+  color: rgb(113 122 134);
+    
+    margin-bottom: 29.96px;
+    max-width: 303px;
+    max-height: 49.94px;
+    font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.mid{
+   color: rgb(113 122 134);
+    margin-top: 29.96px;
+    margin-bottom: 13.98px;
+    max-width: 287px;
+    max-height: 27.96px;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.klein{
+   color: rgb(113 122 134);
+   margin-top: 0px;
+    max-width: 630px;
+    max-height: 167.78px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.block2{
+  
+  margin-top: 30px;
+  display: flex;
+  margin-left: 315px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto
+}
+
+.block2_2{
+  margin-top: 115.33px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 29.96px;
+  margin-left: 30px;
+
+}
+
+.block2_2 > .object1 > p{
+  
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 630px;
+  max-height: 69.91px;
+  border: 1px solid #E3E4E7; 
+  padding: 17.98px 221px 18.98px 30px;
+}
+.block2_2 > .object2 > p{
+  
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 630px;
+  max-height: 69.91px;
+  border: 1px solid #E3E4E7; 
+  padding: 17.98px 221px 18.98px 30px;
+  
+} 
+.block2_2 > .object3 > p{
+  
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 630px;
+  max-height: 69.91px;
+  border: 1px solid #E3E4E7; 
+  padding: 17.98px 221px 18.98px 30px;
+  
+}
+.l_col > .object1 > .txt1,
+.l_col > .object2 > .txt1,
+.l_col > .object3 > .txt1,
+.r_col > .object4 > .txt1,
+.r_col > .object5 > .txt1{
+  
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  font-size: 24px;
+  max-width: 410px;
+  max-height: 28px;
+
+}
+.l_col > .object1 > .txt2,
+.l_col > .object2 > .txt2,
+.l_col > .object3 > .txt2{
+  
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  font-size: 16px;
+  max-width: 410px;
+  max-height: 84px;
+}
+
+.block3_2 > .object6 > .txt1{
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 410px;
+  max-height: 84px;
+  padding-top:  18px;
+  padding-bottom: 19px;
+  padding-left: 30px;
+  background-color: #E3E4E7;
+
+}
+.block3_2 > .object7 > .txt1{
+  margin-top: 0px;
+  font-family: 'Open Sans';
+  color: rgb(113 122 134);
+  font-size: 24px;
+  max-width: 410px;
+  max-height: 84px;
+  padding-top:  9px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  background-color: #E3E4E7;
+
+}
+
+.object0{
+  margin-top: 60px;
+  margin-bottom: 30px ;
+  font-family: 'Open Sans';
+  color: #FFFFFF;
+  font-size: 36px;
+  width: 100%;
+  height: auto;
+  
+}
+.bg {
+  width: 1920px;
+  height: 1500px;
+  background-color: #7C879D ;
+}
+.block3{
+  margin-left: 315px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+  
+
+}
+
+
+/* Главный контейнер выстраивает два столбца РЯДОМ друг с другом */
+.block3_2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;      /* Направляем столбцы в один ряд */
+  flex-wrap: nowrap;        /* Запрещаем столбцам переноситься */
+  justify-content: center;  /* Центрируем столбцы на странице */
+  gap: 30px;                /* Расстояние МЕЖДУ двумя столбцами */
+  width: 100%;
+}
+
+
+/* .column-left {
+  display: flex;
+  flex-direction: column;  
+  gap: 20px;              
+  flex: 1;                 
+  max-width: 410px;         
+}
+
+
+.column-right {
+  display: flex;
+  flex-direction: column;   
+  gap: 20px;                
+  flex: 1;                
+  max-width: 410px;         
+} */
+
+
+
+.r_col > .object4 > .txt2,
+.r_col > .object5 > .txt2{
+font-family: 'Open Sans';
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 410px;
+  max-height: 84px;
+
+}
+.r_col > .object4,
+.r_col > .object5 {
+  margin-bottom: 30px;
+  max-width: 410px;
+  max-height: 352px;
+}
+
+.r_col > .object6 > .txt1{
+font-family: 'Open Sans';
+margin: 0 0;
+  color: #7C879D;
+  font-size: 24px;
+  max-width: 800px;
+  max-height: 33px;
+  padding: 18px 155px 19px 30px ;
+  background-color:#FFFFFF ;
+}
+
+.block3_2 > .object7{
+  max-width: 410px;
+  max-height: 690px;
+  position: absolute;
+  left: 1350px;
+  
+}
+
+.object0 > p{
+margin-top: 0px;
+margin-bottom:  0px;
+}
+.l_col > .object1,
+.l_col > .object2,
+.l_col > .object3{
+  margin-bottom: 30px;
+}
+
+.under{
+  width: 1920px;
+   display: flex;
+    flex-direction:row; 
+    margin-left: 315px;
+    align-items: center;
+    justify-content:space-around
+}
+.under >  p{ 
+
+    margin-right: 85px;
+    color:  #FFFFFF;
+    max-width: 157px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    white-space: nowrap;
+    margin: 0;
+    
+}
